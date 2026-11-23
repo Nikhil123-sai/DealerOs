@@ -1,0 +1,28 @@
+
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Django database
+db.sqlite3
+db.sqlite3-journal
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
